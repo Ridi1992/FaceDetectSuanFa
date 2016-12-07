@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_main">#106184</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#188ab5</color>
+    <color name="key_bg_normal">#181C21</color>
+    <color name="key_bg_pressed">#3879CB</color>
+    <color name="bg_tab_raw">#081010</color>
+     <color name="bg_test">#FFE2E2E2</color>
+    <!-- 背景颜色 -->
+    <!-- 708069 -->
+    <!-- 8B864E -->
+    <!-- 9C9C9C -->
+    <color name="bg_color">#8B864E</color>
+    <!-- 报警橙色 -->
+    <color name="alert_red">#ff0000</color> 
+    <!-- 浅黑 -->
+    <color name="blacker">#363636</color>
+    <color name="light_black">#696969</color>
+    <!-- 海绿色 -->
+    <color name="sea_green">#43CD80</color>
+    <!-- 橙色 -->
+    <color name="orange">#ee8c23</color>
+    <!-- 红色 -->
+    <color name="red">#ff0000</color>
+    <!-- 列表背景色 -->
+    <color name="page_bg">#fff1f1f1</color>
+    <!-- Activity背景颜色 -->
+    <color name="page_bg_grey">#E3E3E3</color>
+    <!-- 标题背景 -->
+    <color name="title_bg_black">#414445</color>
+    <!-- 标题字体颜色 -->
+    <color name="title_color">#ffffff</color>
+    <!-- 菜单字体颜色 -->
+    <color name="item_bg_black">#696969</color>
+    
+    <!-- 点击屏幕背影色 -->
+    <color name="click_bg_orange">#e75402</color>
+    
+    <!-- 拨码盘线颜色 -->
+   	<color name="dial_linecolor">#f1f1f1</color>
+   	
+   	<!-- 设置菜单线颜色 -->
+   	<color name="setting_linecolor">#696969</color>
+   	<!-- 设置字颜色 -->
+   	<color name="setting_wordcolor">#ffffff</color>
+   	<!-- 格子线的颜色 -->
+   	<color name="gridview_line_color">#C2C2C2</color>
+   	<!-- 左边ListView背景色 -->
+   	<color name="listview_left_color">#D2D2D2</color>
+   	<!-- 右边ListView背景色 -->
+   	<color name="listview_right_color">#f1f1f1</color>
+   	
+</resources>

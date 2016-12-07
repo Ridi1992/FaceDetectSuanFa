@@ -1,0 +1,7 @@
+#Fri Nov 04 13:45:40 CST 2016
+base.0=D\:\\ReadID2Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a156678e41551e3bd54be3d660dc0b16761635e3
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\ReadID2Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5ab8ae44eb8c1eb4a7a4769edd7efa5f8876a5bb\\classes.dex
+base.1=D\:\\ReadID2Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5ab8ae44eb8c1eb4a7a4769edd7efa5f8876a5bb
+file.0=D\:\\ReadID2Demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a156678e41551e3bd54be3d660dc0b16761635e3\\classes.dex

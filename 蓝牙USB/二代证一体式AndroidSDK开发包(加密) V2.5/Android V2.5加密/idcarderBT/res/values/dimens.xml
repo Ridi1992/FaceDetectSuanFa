@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <!-- 标题按键字体大小 -->
+    <dimen name="title_button_text_size">18dip</dimen>
+    <!-- 标题字体大小 -->
+    <dimen name="title_text_size">25dip</dimen>
+    <!-- 标题高度大小 -->
+    <dimen name="title_height_size">50dip</dimen>
+    <!-- 播放器图标大小 -->
+    <dimen name="player_icon_size">50dip</dimen>
+    <!-- 菜单字体大小 -->
+    <dimen name="item_text_size">22dip</dimen>
+    
+    <!-- 个人中心菜单padding大小 -->
+    <dimen name="paddingLeft">20dp</dimen>
+    <dimen name="paddingRight">15dp</dimen>
+    <dimen name="drawablePadding">10dp</dimen>
+    
+    <!-- 拨码盘竖线宽度 -->
+    <dimen name="dialpad_line_w">0.5dip</dimen>
+    <dimen name="dialpad_height">50dp</dimen>
+    
+    <!-- 设置菜单列表到屏幕前端距离 -->
+    <dimen name="setting_mleft">20dip</dimen>
+    <!-- 设置主菜单字体大小 -->
+    <dimen name="setting_main_size">25dip</dimen>
+    
+    <!-- 左侧列表的宽度 -->
+    <dimen name="left_list_width">120dip</dimen>
+    
+</resources>

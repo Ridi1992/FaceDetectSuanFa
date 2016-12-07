@@ -1,0 +1,3 @@
+---- mNewDevicesArrayAdapter Matches (2 in 1 files) ----
+DeviceActivity.java (src\com\kaeridcard\factest):	private ArrayAdapter<String> mNewDevicesArrayAdapter;
+DeviceActivity.java (src\com\kaeridcard\factest):		mNewDevicesArrayAdapter = new ArrayAdapter<String>(this, R.layout.device_item);

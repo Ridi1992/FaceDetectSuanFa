@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\2016.10.13chengqing\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\ReadID2Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_591aa33b4d6346135a6a6ccaff6e32a805cd337f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ReadID2Demo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="758fb1317e693be047cb5df1562ccde9fa256c65">
+        <dex dex="D:\ReadID2Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a156678e41551e3bd54be3d660dc0b16761635e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ReadID2Demo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cc93ed6592c49e330b44c466b71c67fb0e9e423">
+        <dex dex="D:\ReadID2Demo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5ab8ae44eb8c1eb4a7a4769edd7efa5f8876a5bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ReadID2Demo\app\libs\readcard0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25395b6eff87ef6e093dddf1be243107bb3a7aa9">
+        <dex dex="D:\ReadID2Demo\app\build\intermediates\transforms\dex\debug\folders\1000\2\readcard0_8307ce548babd3aba84df92b23f579ecdb55dd5a\classes.dex" />
+    </item>
+
+</items>

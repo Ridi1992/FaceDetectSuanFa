@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="lineColor">#848484</color>
+    <color name="face_position">#32CD32</color>
+    <color name="face_rect">#FF0000</color>
+    <color name="line_frame">#026C45</color>
+    <color name="divider_color">#000000</color>
+    <color name="bgColor">#B0E2FF</color>
+
+</resources>

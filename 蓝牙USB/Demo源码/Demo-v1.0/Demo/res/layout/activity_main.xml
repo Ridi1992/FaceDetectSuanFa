@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+	
+             <Button
+                 android:id="@+id/GetSamID"
+                 android:layout_width="120dp"
+                 android:layout_height="@dimen/btheight"
+                 android:layout_marginBottom="@dimen/button_jiange"
+                 android:background="@drawable/ic_button"
+                 android:text="@string/GetSamID"
+                 android:textColor="@color/white" />
+            
+                <Button
+                    android:id="@+id/GetSamStatus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/btheight"
+                    android:layout_marginBottom="@dimen/button_jiange"
+                    android:background="@drawable/ic_button"
+                    android:text="@string/GetSamStatus"
+                    android:textColor="@color/white" />
+		
+			    <Button
+			        android:id="@+id/SDT_ReadIdNum"
+			        android:layout_width="fill_parent"
+			        android:layout_height="@dimen/btheight"
+			        android:layout_marginBottom="@dimen/button_jiange"
+			        android:background="@drawable/ic_button"
+			        android:text="@string/SDT_ReadIdNum"
+			        android:textColor="@color/white" />
+
+			    <Button
+			        android:id="@+id/SDT_ReadBaseMsg"
+			        android:layout_width="fill_parent"
+			        android:layout_height="@dimen/btheight"
+			        android:layout_marginBottom="@dimen/button_jiange"
+			        android:background="@drawable/ic_button"
+			        android:text="@string/SDT_ReadBaseMsg"
+			        android:textColor="@color/white" />
+
+			    <Button
+			        android:id="@+id/readloop"
+			        android:layout_width="fill_parent"
+			        android:layout_height="@dimen/btheight"
+			        android:layout_marginBottom="@dimen/button_jiange"
+			        android:background="@drawable/ic_button"
+			        android:text="@string/readloop"
+			        android:textColor="@color/white" />
+
+			     <Button
+			         android:id="@+id/stopreadloop"
+			         android:layout_width="fill_parent"
+			         android:layout_height="@dimen/btheight"
+			         android:layout_marginBottom="@dimen/button_jiange"
+			         android:background="@drawable/ic_button_unclickable"
+			         android:clickable="false"
+			         android:text="@string/stopreadloop"
+			         android:textColor="@color/white" />
+
+			        <Button
+			            android:id="@+id/cleartext"
+			            android:layout_width="fill_parent"
+			            android:layout_height="@dimen/btheight"
+			            android:layout_marginBottom="@dimen/bigtext15dp"
+			            android:background="@drawable/ic_button"
+			            android:text="@string/cleartext"
+			            android:textColor="@color/white" />
+
+			        <Button
+			            android:id="@+id/closeapp"
+			            android:layout_width="fill_parent"
+			            android:layout_height="@dimen/btheight"
+			            
+			            android:background="@drawable/ic_button_pink"
+			            android:text="@string/closeapp"
+			            android:textColor="@color/white" />
+		
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@+id/linearLayout1"
+            
+            android:layout_toRightOf="@+id/linearLayout1"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fillViewport="true" >
+                    
+             <TextView
+                 android:id="@+id/result"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:background="@color/grey"
+                 android:gravity="center_vertical"
+                 android:scrollHorizontally="true"
+                 android:singleLine="false"
+                 android:textSize="20sp"
+                 android:visibility="visible" />
+                
+            </ScrollView>
+
+           
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

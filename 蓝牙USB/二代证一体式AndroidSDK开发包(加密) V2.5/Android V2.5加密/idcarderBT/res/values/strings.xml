@@ -1,0 +1,36 @@
+<resources>
+    
+    <string name="app_name">生产测试-18</string>
+	<string name="str_find">搜索设备</string>
+    <string name="scanning">正在扫描周围设备...</string>
+    <string name="select_device">选择一个设备连接</string>
+    <string name="none_paired">没有配对设备</string>
+    <string name="none_found">暂时没有搜到设备</string>
+    <string name="str_paired_devices">已配对设备</string>
+    <string name="str_other_devices">其它可用设备</string>
+    <string name="str_please_select_device">请选择一个蓝牙设备</string>
+    <string name="bt_lost_connect">蓝牙连接已断开！</string>
+    <string name="bt_connected">蓝牙连接成功！ </string>
+    <string name="bt_connect_fail">蓝牙连接失败！ </string>
+	<string name="bt_readcard_succ">读卡成功！</string>
+	
+	<string name="result_data_err">数据解析错误</string>
+	<string name="result_bt_no_link">蓝牙未连接</string>
+	<string name="result_read_overtime">读卡超时</string>
+	
+	<string name="bt_connected_ts">蓝牙已连接到: </string>
+	<string name="bt_rssi_value">信号强度: </string>
+	
+	<string name="bt_check_fail">测试失败！</string>
+	<string name="bt_check_succ">测试成功！</string>
+	
+	<string name="connect_bt">连接</string>
+	<string name="disconnect_bt">断开</string>
+	<string name="readcard">读卡</string>
+	
+    <string name="cancel">取消</string>
+    <string name="complete">完成</string>
+    <string name="dialog_ok">确定</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+</resources>

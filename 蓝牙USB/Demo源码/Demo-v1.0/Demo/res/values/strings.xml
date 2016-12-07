@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">居民身份证阅读Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="GetSamID">获取模块编号</string>
+    <string name="GetSamStatus">获取模块状态</string>
+    <string name="StartFindIDCard">找卡</string>
+    <string name="SelectIDCard">选卡</string>    
+    <string name="SDT_ReadIdNum">读身份证号</string>
+    <string name="SDT_ReadBaseMsg">读基本信息</string>
+	 <string name="SDT_ReadBaseFPMsg">读指纹信息</string>
+	<string name="readloop">循环扫描找卡</string>
+	<string name="stopreadloop">停止循环扫描</string>
+	<string name="cleartext">清空右侧显示</string>
+	<string name="closeapp">关闭应用程序</string>
+	<string name="msg_name">姓  名</string>
+	<string name="msg_sex">性  别</string>
+	<string name="msg_nation">民  族</string>
+	<string name="msg_birthday">出  生</string>
+	<string name="msg_address">住  址</string>
+	<string name="msg_idnum">公民身份号码</string>
+	<string name="msg_signoffice">签发机关</string>
+	<string name="msg_uselife">有效期限</string>
+	<string name="year">年</string>
+	<string name="month">月</string>
+	<string name="day">日</string>
+</resources>

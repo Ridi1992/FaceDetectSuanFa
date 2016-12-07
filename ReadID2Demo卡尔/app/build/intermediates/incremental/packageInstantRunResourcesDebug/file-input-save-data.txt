@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Fri Nov 04 11:31:11 CST 2016
+1.base=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+1.file=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+4.set=ANDROID_RESOURCE
+2.base=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+count=5
+1.set=ANDROID_RESOURCE
+3.base=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+0.file=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_key.xml
+4.base=D\:\\ReadID2Demo\\app\\build\\intermediates\\res\\resources-debug.ap_

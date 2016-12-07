@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_Main"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="测试算法"/>
+    <item
+        android:id="@+id/action_Detect"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="人脸识别"/>
+    <item
+        android:id="@+id/action_Detect_Task"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="多线程人脸识别"/>
+    <item
+        android:id="@+id/action_Feature"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="多线程获取模型"/>
+
+    <item
+        android:id="@+id/action_Exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="退出"/>
+
+</menu>

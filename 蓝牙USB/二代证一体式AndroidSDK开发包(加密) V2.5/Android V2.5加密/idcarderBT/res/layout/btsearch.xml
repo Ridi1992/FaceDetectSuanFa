@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/connect_state"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="@string/bt_lost_connect" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        />
+    
+    <ImageView
+        android:id="@+id/idcard_image"
+        android:layout_width="102dip"
+        android:layout_height="126dip"
+        />
+    <TextView
+        android:id="@+id/idcard_text"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:textSize="16sp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        />
+    
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+			<Button
+		        android:id="@+id/connect_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="@string/connect_bt"
+		        />
+		    <Button
+		        android:id="@+id/disconnect_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="@string/disconnect_bt"
+		        />
+			<Button
+		        android:id="@+id/read_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="@string/readcard"
+		        />
+        </LinearLayout>
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+			<Button
+		        android:id="@+id/read_iccid_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="读iccid"
+		        />
+		    <Button
+		        android:id="@+id/read_ismi_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="读imsi"
+		        />
+			<Button
+		        android:id="@+id/write_ismi_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="写imsi"
+		        />
+			<Button
+		        android:id="@+id/write_msgcenter_button"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="写短信中心"
+		        />
+        </LinearLayout>
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" 
+            android:visibility="gone">
+
+			<Button
+		        android:id="@+id/changeBt"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		        android:textSize="12sp"
+		        android:text="修改bt"
+		        />
+		    <EditText
+		        android:id="@+id/value"
+		        android:layout_width="80dip"
+		        android:layout_height="fill_parent"
+		         android:textSize="12sp"
+		        android:hint="延迟时间"
+		        />
+			<EditText
+		        android:id="@+id/bytecounte"
+		        android:layout_width="80dip"
+		         android:textSize="12sp"
+		        android:layout_height="fill_parent"
+		        android:hint="字节数"
+		        />
+        </LinearLayout>
+</LinearLayout>

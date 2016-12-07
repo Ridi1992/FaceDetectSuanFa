@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\ReadID2Demo\app\src\main\jniLibs"><file name="armeabi/libiskaer.so" path="D:\ReadID2Demo\app\src\main\jniLibs\armeabi\libiskaer.so"/><file name="armeabi/libSerialPort.so" path="D:\ReadID2Demo\app\src\main\jniLibs\armeabi\libSerialPort.so"/><file name="armeabi/libwlt2bmp.so" path="D:\ReadID2Demo\app\src\main\jniLibs\armeabi\libwlt2bmp.so"/></source></dataSet><dataSet config="debug"><source path="D:\ReadID2Demo\app\src\debug\jniLibs"/></dataSet></merger>

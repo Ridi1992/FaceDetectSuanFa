@@ -1,0 +1,1 @@
+1 在libs下创建armeabi 和 armeabi-v7a 目录。将libiskaer.so  libwlt2bmp.so放到armeabi 和 armeabi-v7a 目录各一份。

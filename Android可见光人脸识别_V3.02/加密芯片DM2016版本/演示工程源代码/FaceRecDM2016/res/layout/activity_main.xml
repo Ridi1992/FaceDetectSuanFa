@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="飞瑞斯人脸识别比对算法库使用操作顺序如下："
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+        <Button
+            android:id="@+id/btnConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="配置" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/btnAlgAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="算法鉴权" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="初始化库" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnDetect1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检测人脸1" />
+
+            <Button
+                android:id="@+id/btnDetect2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检测人脸2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnFeature1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取模板1" />
+
+            <Button
+                android:id="@+id/btnFeature2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取模板2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/btnCompare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="比对模板" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/btnRelease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="释放库" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="清空" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:padding="10dp" >
+
+        <com.FRD.cn.FaceView
+            android:id="@+id/ivLbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lbb" />
+
+        <com.FRD.cn.FaceView
+            android:id="@+id/ivLt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lt" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="比对结果："
+                    android:textSize="@dimen/titleSize" />
+
+                <TextView
+                    android:id="@+id/txtSim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="@dimen/titleSize" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtMsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="消息"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="@dimen/titleSize" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
